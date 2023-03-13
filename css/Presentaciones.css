@@ -1,0 +1,79 @@
+.contenido{
+    width: 80rem;
+    height: 100vh;
+    padding: 3rem;
+
+    margin: auto;
+
+}
+img{
+    width: 6rem;
+    height: 6rem;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(248, 198, 122);
+    padding: 0.01rem;
+}
+.usuario{
+    float: left;
+}
+.componentes{
+    width: 100%;
+    list-style-type: none;
+    text-align: right;
+}
+.componentes li{
+    display: inline-flex;
+    text-align: center;
+}
+.componentes li a{
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+    padding: 10px;
+    width: 200px;
+}
+.componentes li a:hover{
+    background-color: aquamarine;
+}
+.titulo1{
+    text-align: left;
+    margin: 1rem;
+}
+.parrafo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    text-align: justify;
+}
+.parrafo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    text-align: justify;
+}
+.tabla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+}
+.tablatexto p{
+    margin: 1rem;
+    text-align: center;
+    text-align: justify;
+}
+.ultimo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(248, 198, 122);
+    padding: 3rem;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
